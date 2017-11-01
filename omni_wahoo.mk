@@ -15,3 +15,5 @@
 #
 # Contains the wahoo and omni specific copy, package, and override defines.
 #
+
+DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-carbon
