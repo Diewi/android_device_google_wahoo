@@ -21,6 +21,10 @@ DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-carbon
 PRODUCT_PROPERTY_OVERRIDES += \
     media.recorder.show_manufacturer_and_model=true
 
+# EUICC feature
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.euicc.xml
+
 # MiFare Permissions file
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
