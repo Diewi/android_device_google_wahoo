@@ -28,3 +28,8 @@ PRODUCT_COPY_FILES += \
 # MiFare Permissions file
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
+
+# ModemService
+PRODUCT_COPY_FILES += \
+    device/google/wahoo/whitelist_modemservice.xml:system/etc/sysconfig/whitelist_modemservice.xml
+
