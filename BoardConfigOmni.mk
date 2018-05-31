@@ -17,6 +17,7 @@
 #
 
 # Inline kernel building
+TARGET_KERNEL_CONFIG := omni-wahoo_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/wahoo
 BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 TARGET_KERNEL_CLANG_COMPILE := true
