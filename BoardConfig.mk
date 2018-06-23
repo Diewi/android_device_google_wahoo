@@ -168,3 +168,6 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_USES_MKE2FS := true
 
 BOARD_VNDK_VERSION := current
+
+# Omni specifics
+include device/google/wahoo/BoardConfigOmni.mk
