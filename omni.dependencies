@@ -1,0 +1,38 @@
+[
+  {
+    "remote": "omnirom",
+    "repository": "android_kernel_google_wahoo",
+    "target_path": "kernel/google/wahoo",
+    "revision": "android-9.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio",
+    "revision": "android-9.0"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/qcom/bootctrl",
+    "target_path": "hardware/qcom/bootctrl",
+    "revision": "refs/tags/android-9.0.0_r3"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display",
+    "revision": "android-9.0"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/qcom/data/ipacfg-mgr",
+    "target_path": "hardware/qcom/data/ipacfg-mgr",
+    "revision": "refs/tags/android-9.0.0_r3"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media",
+    "revision": "android-9.0"
+  }
+]
