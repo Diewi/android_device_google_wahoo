@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-   com.android.ims.rcsmanager \
-   RcsService \
-   PresencePolling
+    com.android.ims.rcsmanager \
+    RcsService \
+    PresencePolling
+
+# Privileged permissions whitelist
+PRODUCT_COPY_FILES += \
+    device/google/wahoo/permissions/privapp-permissions-omni_wahoo.xml:system/etc/permissions/privapp-permissions-omni_wahoo.xml
